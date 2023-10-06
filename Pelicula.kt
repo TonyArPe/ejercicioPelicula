@@ -31,7 +31,7 @@ fun main() {
 
         val eleccion = readLine()?.toIntOrNull() ?: 0
 
-        when (elección) {
+        when (eleccion) {
             1 -> {
                 println("Inserte los datos de la película:")
                 print("Nombre: ")
